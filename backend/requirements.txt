@@ -1,0 +1,29 @@
+# ==============================================================================
+# Smart Agriculture Project - Backend Requirements
+# ==============================================================================
+# To install all dependencies in your Python environment, run:
+#
+#   pip install -r requirements.txt
+#
+# Alternatively, if multiple Python versions are installed:
+#
+#   py -m pip install -r requirements.txt
+#   # or
+#   python -m pip install -r requirements.txt
+# ==============================================================================
+
+# Lightweight Web Framework for REST APIs
+Flask>=3.0.0
+
+# Cross-Origin Resource Sharing (allows React frontend to communicate with Flask)
+flask-cors>=5.0.0
+
+# AI / Machine Learning — for plant disease image classification
+tensorflow>=2.22.0
+
+# Image processing — used to decode and resize uploaded leaf photos
+Pillow>=10.0.0
+
+# Numerical arrays — required by TensorFlow preprocessing
+numpy>=1.26.0
+
