@@ -19,7 +19,7 @@ Flask>=3.0.0
 flask-cors>=5.0.0
 
 # AI / Machine Learning — for plant disease image classification
-tensorflow>=2.22.0
+tensorflow==2.20.0
 
 # Image processing — used to decode and resize uploaded leaf photos
 Pillow>=10.0.0
