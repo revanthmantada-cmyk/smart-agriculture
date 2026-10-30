@@ -12,8 +12,6 @@ Thumbs.db
 backend/*.db
 backend/*.sqlite
 backend/*.sqlite3
-DATASETS/
-datasets/
 models/*.keras
 models/*.h5
 models/*.hdf5
